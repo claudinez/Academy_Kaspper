@@ -1,0 +1,13 @@
+body {
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+.container {
+	flex: 1;
+	}
+footer {
+	background-color: #06335f; 
+    text-align: center; 
+    padding: 10px 0; 
+}

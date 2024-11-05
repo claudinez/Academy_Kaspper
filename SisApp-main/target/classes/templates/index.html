@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tela Principal</title>
+<link rel="stylesheet" href="../templates/css/home.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<div class=class="container d-flex justify-content-center mt-5">
+		<div class="card p-5" style="max-width: 500px;">
+			<div class="welcome-message text-success">Seja Bem-Vindo!</div>
+			     <h3>Escolha uma Opção</h3>
+			      <li><a th:href="@{/funcionario}" class="text-center text-primary">Cadastro de Funcionário</a></li>
+			      <li><a th:href="@{/funcionario/listagem}" class="list-unstyled text-center mt-4">Listagem Funcionário</a></li>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
